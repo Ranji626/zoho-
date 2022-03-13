@@ -7,13 +7,15 @@ Instruction to run the Application
 
 3.Next, open any browser and type "localhost/phpmyadmin/"
 
-4.Unzip the zoho_final folder and extract zip folder and save zoho folder under the file path C:\xampp\htdocs\
+4.Download code from Github as zip folder.
+
+4.Unzip the zoho-main folder and extract zip folder and save zoho folder under the file path C:\xampp\htdocs\
 
 5.In the zoho folder you will be having the sql file named zoho.sql.
 
 6.create new database with the name "zoho" and import tables using zoho.sql file.
 
-7.After Successfully completion on tables import, Open new tab in browser and type "localhost/zoho/".
+7.After Successfully completion on tables import, Open new tab in browser and type "localhost/zoho-main/".
 
 8.Next, you have to register using register form and login using login form.
 
