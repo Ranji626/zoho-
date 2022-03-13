@@ -11,8 +11,8 @@ if (isset($_POST['name'])) {
         $error = "Enter your valid email address";
         $_SESSION['error'] = $error;
         header("Location: welcome.php");
-    } else if (strlen($_POST['phone']) < 10 && strlen($_POST['phone']) >14) {
-        $error = "phone number  length should greater than 10 & less than 14 numbers";
+    } else if (strlen($_POST['phone']) != 10 ) {
+        $error = "Enter 10 digit Phone Number without country code";
         $_SESSION['error'] = $error;
         header("Location: welcome.php");
     } else {
